@@ -1,0 +1,10 @@
+<table>
+  <% for path, errors in @files_with_spelling_errors.sort_by(&:last).reverse %>
+    <tr>
+      <td><%= link_to "/check#{path}",
+                      "/check#{path}" %></td>
+      <td><%= errors %></td>
+    </tr>
+  <% end %>
+</table>
+
