@@ -15,7 +15,7 @@ in just a few hours
 Navigate to http://localhost:4567/summary`<folder with ruby sources to spell check>`
     
 For example http://localhost:4567/summary/mnt/hgfs/ubuntu\_shared/spelled\_code/
-will spell check all the ruby sources under `/mnt/hgfs/ubuntu\_shared/spelled\_code/`
+will spell check all the ruby sources under `/mnt/hgfs/ubuntu_shared/spelled_code/`
 and output summary table
 
 Navigate to http://localhost:4567/check`<ruby file to spell check>`
