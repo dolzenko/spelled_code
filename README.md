@@ -12,14 +12,14 @@ in just a few hours
     ./lib on $RUBYLIB
     > rackup -p 4567 -s thin 
     
-Navigate to http://localhost:4567/summary<folder with ruby sources to spell check>
+Navigate to http://localhost:4567/summary`<folder with ruby sources to spell check>`
     
-For example http://localhost:4567/summary/mnt/hgfs/ubuntu_shared/spelled_code/
-will spell check all the ruby sources in /mnt/hgfs/ubuntu_shared/spelled_code/
+For example http://localhost:4567/summary/mnt/hgfs/ubuntu\_shared/spelled\_code/
+will spell check all the ruby sources under `/mnt/hgfs/ubuntu\_shared/spelled\_code/`
 and output summary table
 
-Navigate to http://localhost:4567/check<ruby file to spell check>
+Navigate to http://localhost:4567/check`<ruby file to spell check>`
 
-For example http://localhost:4567/check/mnt/hgfs/ubuntu_shared/spelled_code/vendor/rhunspell/setup.rb
-will output source of vendor/rhunspell/setup.rb file
+For example http://localhost:4567/check/mnt/hgfs/ubuntu_shared/spelled\_code/vendor/rhunspell/setup.rb
+will output source of `vendor/rhunspell/setup.rb` file
 with spelling errors highlighted.
